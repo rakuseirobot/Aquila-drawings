@@ -1,0 +1,400 @@
+22300 0 2 4           
+33 Autodesk Inventor 22.0.11200.0000 19 ASM 223.0.1.2330 NT 24 Mon Aug 27 09:16:59 2018 
+10 9.999999999999999547e-07 1.000000000000000036e-10 
+asmheader $-1 -1 @12 223.0.1.2330 #
+body $2 -1 $-1 $3 $-1 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $4 $-1 $1 copy keep_all ignore copy @13 BODY_TYPE_FEA 1 #
+lump $5 0 $-1 $-1 $6 $1 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $2 $1 keep keep_kept ignore copy @17 ATTRIB_XACIS_NAME @13 LiFeGuard.ipt #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $7 $-1 $3 keep keep_kept ignore copy @27 ADSK_FEATURE_TREE_REFERENCE 1 #
+shell $-1 -1 $-1 $-1 $-1 $8 $-1 $3 #
+pid_name-sg-attrib $-1 -1 $-1 $5 $3 @7 unknown 1535329018 88 1 #
+face $9 1 $-1 $10 $11 $6 $-1 $12 reversed single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $13 $-1 $8 copy keep_kept ignore copy @10 FAMILY_KID 1 #
+face $14 2 $-1 $15 $16 $6 $-1 $17 reversed single #
+loop $18 51 $-1 $-1 $19 $8 #
+plane-surface $-1 -1 $-1 2.800000000000000266 5.300000000000000711 0 0 1 0 -1 -0 -0 forward_v I I I I #
+fmesh-eye-attrib $-1 -1 $20 $9 $8 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $21 $-1 $10 copy keep_kept ignore copy @10 FAMILY_KID 2 #
+face $22 3 $-1 $23 $24 $6 $-1 $25 reversed single #
+loop $26 56 $-1 $-1 $27 $10 #
+plane-surface $-1 -1 $-1 2.800000000000000266 0.2000000000000001776 0 1 0 -0 -0 1 -0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $11 @7 unknown 1535329018 89 1 #
+coedge $28 52 $-1 $29 $30 $31 $32 reversed $11 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $33 $13 $8 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 38 #
+fmesh-eye-attrib $-1 -1 $34 $14 $10 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $35 $-1 $15 copy keep_kept ignore copy @10 FAMILY_KID 3 #
+face $36 4 $-1 $37 $38 $6 $-1 $39 reversed single #
+loop $40 61 $-1 $-1 $41 $15 #
+plane-surface $-1 -1 $-1 0.2000000000000000111 0.2000000000000001776 0 0 -1 0 1 0 0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $16 @7 unknown 1535329018 94 1 #
+coedge $42 57 $-1 $43 $44 $45 $46 reversed $16 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $19 @7 unknown 1535329018 90 1 #
+coedge $47 53 $-1 $48 $19 $44 $49 forward $11 0 $-1 #
+coedge $50 55 $-1 $19 $48 $51 $52 reversed $11 0 $-1 #
+coedge $53 102 $-1 $54 $45 $19 $32 forward $55 0 $-1 #
+edge $56 11 $-1 $57 -0.6499999999999999112 $58 1.9500000000000004 $31 $59 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $20 $8 @7 Invento 1535329018 38 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $60 $21 $10 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 39 #
+fmesh-eye-attrib $-1 -1 $61 $22 $15 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $62 $-1 $23 copy keep_kept ignore copy @10 FAMILY_KID 4 #
+face $63 5 $-1 $64 $65 $6 $-1 $66 forward single #
+loop $67 66 $-1 $-1 $68 $23 #
+plane-surface $-1 -1 $-1 0.2000000000000000111 5.300000000000000711 0 -1 0 0 0 -1 0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $24 @7 unknown 1535329018 99 1 #
+coedge $69 62 $-1 $70 $71 $72 $73 reversed $24 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $27 @7 unknown 1535329018 95 1 #
+coedge $74 58 $-1 $75 $27 $71 $76 forward $16 0 $-1 #
+coedge $77 60 $-1 $27 $75 $29 $49 reversed $16 0 $-1 #
+coedge $78 105 $-1 $31 $72 $27 $46 forward $55 0 $-1 #
+edge $79 15 $-1 $80 -1.275000000000000133 $57 3.825000000000000178 $45 $81 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $29 @7 unknown 1535329018 91 1 #
+coedge $82 54 $-1 $30 $29 $83 $84 reversed $11 0 $-1 #
+edge $85 12 $-1 $57 0 $86 13 $44 $87 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $30 @7 unknown 1535329018 93 1 #
+coedge $88 68 $-1 $89 $68 $30 $52 forward $38 0 $-1 #
+edge $90 14 $-1 $58 0 $91 13 $51 $92 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $31 @7 unknown 1535329018 140 1 #
+coedge $93 103 $-1 $72 $31 $68 $94 forward $55 0 $-1 #
+loop $95 101 $-1 $96 $31 $97 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $98 $-1 $32 copy keep_kept ignore copy @10 FAMILY_KID 11 #
+vertex $99 36 $-1 $32 0 $100 #
+vertex $101 35 $-1 $32 1 $102 #
+straight-curve $-1 -1 $-1 2.150000000000000355 5.300000000000000711 0 -1 0 0 I I #
+pid_name-sg-attrib $-1 -1 $-1 $34 $10 @7 Invento 1535329018 39 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $103 $35 $15 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 40 #
+fmesh-eye-attrib $-1 -1 $104 $36 $23 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $105 $-1 $37 copy keep_kept ignore copy @10 FAMILY_KID 5 #
+face $106 6 $-1 $107 $108 $6 $-1 $109 forward single #
+loop $110 71 $-1 $-1 $111 $37 #
+plane-surface $-1 -1 $-1 0 5.5 0 -1 0 0 0 -1 0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $38 @7 unknown 1535329018 104 1 #
+coedge $112 67 $-1 $51 $113 $54 $94 reversed $38 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $41 @7 unknown 1535329018 100 1 #
+coedge $114 63 $-1 $115 $41 $113 $116 forward $24 0 $-1 #
+coedge $117 65 $-1 $41 $115 $43 $76 reversed $24 0 $-1 #
+coedge $118 104 $-1 $45 $54 $41 $73 forward $55 0 $-1 #
+edge $119 18 $-1 $120 -0.6500000000000001332 $80 1.950000000000000178 $72 $121 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $43 @7 unknown 1535329018 96 1 #
+coedge $122 59 $-1 $44 $43 $123 $124 reversed $16 0 $-1 #
+edge $125 16 $-1 $80 0 $126 13 $71 $127 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $44 @7 unknown 1535329018 98 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $45 @7 unknown 1535329018 143 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $128 $-1 $46 copy keep_kept ignore copy @10 FAMILY_KID 15 #
+vertex $129 39 $-1 $46 0 $130 #
+straight-curve $-1 -1 $-1 2.800000000000000266 1.475000000000000311 0 -0 1 0 I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $48 @7 unknown 1535329018 92 1 #
+coedge $131 92 $-1 $123 $132 $48 $84 forward $133 0 $-1 #
+edge $134 13 $-1 $91 -1.9500000000000004 $86 0.6499999999999999112 $83 $135 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $136 $-1 $49 copy keep_kept ignore copy @10 FAMILY_KID 12 #
+vertex $137 37 $-1 $84 1 $138 #
+straight-curve $-1 -1 $-1 2.800000000000000266 5.300000000000000711 0 0 0 1 I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $51 @7 unknown 1535329018 106 1 #
+coedge $139 69 $-1 $113 $51 $132 $140 reversed $38 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $141 $-1 $52 copy keep_kept ignore copy @10 FAMILY_KID 14 #
+vertex $142 38 $-1 $84 0 $143 #
+straight-curve $-1 -1 $-1 0.2000000000000000111 5.300000000000000711 0 0 0 1 I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $54 @7 unknown 1535329018 141 1 #
+edge $144 21 $-1 $58 -1.275000000000000355 $120 3.825000000000000178 $54 $145 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $55 @7 unknown 1535329018 139 1 #
+loop $146 106 $-1 $-1 $147 $97 #
+face $148 10 $-1 $-1 $55 $6 $-1 $149 reversed single #
+ptlist-eye-attrib $-1 -1 $150 $56 $32 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $151 $-1 $57 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 72 #
+point $-1 -1 $-1 2.800000000000000266 5.300000000000000711 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $152 $-1 $58 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 73 #
+point $-1 -1 $-1 0.2000000000000000111 5.300000000000000711 0 #
+pid_name-sg-attrib $-1 -1 $-1 $61 $15 @7 Invento 1535329018 40 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $153 $62 $23 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 41 #
+fmesh-eye-attrib $-1 -1 $154 $63 $37 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $155 $-1 $64 copy keep_kept ignore copy @10 FAMILY_KID 6 #
+face $156 7 $-1 $157 $158 $6 $-1 $159 forward single #
+loop $160 76 $-1 $-1 $161 $64 #
+plane-surface $-1 -1 $-1 3 5.5 0 0 1 -0 -1 0 0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $65 @7 unknown 1535329018 109 1 #
+coedge $162 72 $-1 $163 $164 $165 $166 forward $65 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $68 @7 unknown 1535329018 105 1 #
+coedge $167 70 $-1 $68 $89 $70 $116 reversed $38 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $70 @7 unknown 1535329018 101 1 #
+coedge $168 64 $-1 $71 $70 $169 $170 reversed $24 0 $-1 #
+edge $171 19 $-1 $120 0 $172 13 $113 $173 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $71 @7 unknown 1535329018 103 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $72 @7 unknown 1535329018 142 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $174 $-1 $73 copy keep_kept ignore copy @10 FAMILY_KID 18 #
+vertex $175 41 $-1 $73 0 $176 #
+straight-curve $-1 -1 $-1 0.8500000000000000888 0.2000000000000001776 0 1 0 -0 I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $75 @7 unknown 1535329018 97 1 #
+coedge $177 93 $-1 $169 $83 $75 $124 forward $133 0 $-1 #
+edge $178 17 $-1 $86 -3.825000000000000178 $126 1.275000000000000133 $123 $179 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $180 $-1 $76 copy keep_kept ignore copy @10 FAMILY_KID 16 #
+vertex $181 40 $-1 $124 1 $182 #
+straight-curve $-1 -1 $-1 2.800000000000000266 0.2000000000000001776 0 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $183 $79 $46 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $184 $-1 $80 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 76 #
+point $-1 -1 $-1 2.800000000000000266 0.2000000000000001776 0 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $83 @7 unknown 1535329018 130 1 #
+coedge $185 95 $-1 $83 $169 $89 $140 forward $133 0 $-1 #
+loop $186 91 $-1 $187 $83 $188 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $189 $-1 $84 copy keep_kept ignore copy @10 FAMILY_KID 13 #
+straight-curve $-1 -1 $-1 2.150000000000000355 5.300000000000000711 13 1 0 0 I I #
+ptlist-eye-attrib $-1 -1 $190 $85 $49 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $191 $-1 $86 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 74 #
+point $-1 -1 $-1 2.800000000000000266 5.300000000000000711 13 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $89 @7 unknown 1535329018 107 1 #
+edge $192 22 $-1 $172 -3.825000000000000178 $91 1.275000000000000355 $132 $193 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $194 $90 $52 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $195 $-1 $91 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 75 #
+point $-1 -1 $-1 0.2000000000000000111 5.300000000000000711 13 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $196 $-1 $94 copy keep_kept ignore copy @10 FAMILY_KID 21 #
+straight-curve $-1 -1 $-1 0.1999999999999999556 4.025000000000000355 0 0 -1 0 I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $96 @7 unknown 1535329018 144 1 #
+coedge $197 107 $-1 $165 $198 $199 $200 reversed $96 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $201 $-1 $97 copy keep_kept ignore copy @10 FAMILY_KID 10 #
+plane-surface $-1 -1 $-1 1.500000000000000222 2.750000000000000444 0 0 0 1 1 0 0 forward_v I I I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $202 $98 $32 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 48 #
+pid_name-sg-attrib $-1 -1 $-1 $99 $57 @7 Invento 1535329018 72 1 #
+pid_name-sg-attrib $-1 -1 $-1 $101 $58 @7 Invento 1535329018 73 1 #
+pid_name-sg-attrib $-1 -1 $-1 $104 $23 @7 Invento 1535329018 41 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $203 $105 $37 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 42 #
+fmesh-eye-attrib $-1 -1 $204 $106 $64 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $205 $-1 $107 copy keep_kept ignore copy @10 FAMILY_KID 7 #
+face $206 8 $-1 $188 $207 $6 $-1 $208 forward single #
+loop $209 81 $-1 $-1 $210 $107 #
+plane-surface $-1 -1 $-1 3 0 0 1 0 0 0 1 0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $108 @7 unknown 1535329018 114 1 #
+coedge $211 77 $-1 $212 $213 $214 $215 forward $108 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $111 @7 unknown 1535329018 110 1 #
+coedge $216 73 $-1 $217 $111 $218 $219 forward $65 0 $-1 #
+coedge $220 75 $-1 $111 $217 $212 $221 reversed $65 0 $-1 #
+coedge $222 108 $-1 $214 $147 $111 $166 reversed $96 0 $-1 #
+edge $223 23 $-1 $224 0 $225 5.5 $111 $226 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $113 @7 unknown 1535329018 108 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $115 @7 unknown 1535329018 102 1 #
+coedge $227 94 $-1 $132 $123 $115 $170 forward $133 0 $-1 #
+edge $228 20 $-1 $126 -1.950000000000000178 $172 0.6500000000000001332 $169 $229 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $230 $-1 $116 copy keep_kept ignore copy @10 FAMILY_KID 19 #
+vertex $231 42 $-1 $170 1 $232 #
+straight-curve $-1 -1 $-1 0.2000000000000000111 0.2000000000000001776 0 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $233 $119 $73 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $234 $-1 $120 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 78 #
+point $-1 -1 $-1 0.2000000000000000111 0.2000000000000001776 0 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $123 @7 unknown 1535329018 131 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $235 $-1 $124 copy keep_kept ignore copy @10 FAMILY_KID 17 #
+straight-curve $-1 -1 $-1 2.800000000000000266 1.475000000000000311 13 0 -1 0 I I #
+ptlist-eye-attrib $-1 -1 $236 $125 $76 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $237 $-1 $126 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 77 #
+point $-1 -1 $-1 2.800000000000000266 0.2000000000000001776 13 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $238 $128 $46 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 52 #
+pid_name-sg-attrib $-1 -1 $-1 $129 $80 @7 Invento 1535329018 76 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $132 @7 unknown 1535329018 133 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $133 @7 unknown 1535329018 129 1 #
+loop $239 96 $-1 $-1 $240 $188 #
+face $241 9 $-1 $97 $133 $6 $-1 $242 forward single #
+ptlist-eye-attrib $-1 -1 $243 $134 $84 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $244 $136 $49 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 49 #
+pid_name-sg-attrib $-1 -1 $-1 $137 $86 @7 Invento 1535329018 74 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $245 $-1 $140 copy keep_kept ignore copy @10 FAMILY_KID 22 #
+straight-curve $-1 -1 $-1 0.1999999999999999556 4.025000000000000355 13 0 1 -0 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $246 $141 $52 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 51 #
+pid_name-sg-attrib $-1 -1 $-1 $142 $91 @7 Invento 1535329018 75 1 #
+ptlist-eye-attrib $-1 -1 $247 $144 $94 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $147 @7 unknown 1535329018 145 1 #
+coedge $248 110 $-1 $147 $214 $210 $249 reversed $96 0 $-1 #
+coedge $250 87 $-1 $251 $218 $147 $200 forward $207 0 $-1 #
+edge $252 33 $-1 $225 0 $253 3 $199 $254 forward @7 unknown #
+fmesh-eye-attrib $-1 -1 $255 $148 $97 #
+pid_name-sg-attrib $-1 -1 $-1 $150 $32 @7 Invento 1535329018 48 1 #
+pid_name-sg-attrib $-1 -1 $-1 $154 $37 @7 Invento 1535329018 42 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $256 $155 $64 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 43 #
+fmesh-eye-attrib $-1 -1 $257 $156 $107 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $258 $-1 $157 copy keep_kept ignore copy @10 FAMILY_KID 8 #
+loop $259 86 $-1 $-1 $199 $157 #
+plane-surface $-1 -1 $-1 0 0 0 0 -1 0 1 0 0 forward_v I I I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $158 @7 unknown 1535329018 119 1 #
+coedge $260 82 $-1 $261 $262 $198 $249 forward $158 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $161 @7 unknown 1535329018 115 1 #
+coedge $263 78 $-1 $264 $161 $164 $221 forward $108 0 $-1 #
+coedge $265 80 $-1 $161 $264 $261 $266 reversed $108 0 $-1 #
+coedge $267 109 $-1 $198 $165 $161 $215 reversed $96 0 $-1 #
+edge $268 27 $-1 $269 0 $224 3 $161 $270 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $163 @7 unknown 1535329018 111 1 #
+coedge $271 74 $-1 $164 $163 $272 $273 reversed $65 0 $-1 #
+coedge $274 90 $-1 $199 $275 $163 $219 reversed $207 0 $-1 #
+edge $276 24 $-1 $225 0 $277 13 $218 $278 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $164 @7 unknown 1535329018 113 1 #
+edge $279 26 $-1 $224 0 $280 13 $212 $281 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $165 @7 unknown 1535329018 146 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $282 $-1 $166 copy keep_kept ignore copy @10 FAMILY_KID 23 #
+vertex $283 43 $-1 $215 1 $284 #
+vertex $285 44 $-1 $200 0 $286 #
+straight-curve $-1 -1 $-1 0 5.5 0 0 -1 0 F 0 F 5.5 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $169 @7 unknown 1535329018 132 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $287 $-1 $170 copy keep_kept ignore copy @10 FAMILY_KID 20 #
+straight-curve $-1 -1 $-1 0.8500000000000000888 0.2000000000000001776 13 -1 0 0 I I #
+ptlist-eye-attrib $-1 -1 $288 $171 $116 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $289 $-1 $172 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 79 #
+point $-1 -1 $-1 0.2000000000000000111 0.2000000000000001776 13 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $290 $174 $73 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 55 #
+pid_name-sg-attrib $-1 -1 $-1 $175 $120 @7 Invento 1535329018 78 1 #
+ptlist-eye-attrib $-1 -1 $291 $178 $124 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $292 $180 $76 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 53 #
+pid_name-sg-attrib $-1 -1 $-1 $181 $126 @7 Invento 1535329018 77 1 #
+pid_name-sg-attrib $-1 -1 $-1 $183 $46 @7 Invento 1535329018 52 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $187 @7 unknown 1535329018 134 1 #
+coedge $293 97 $-1 $294 $272 $275 $295 forward $187 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $296 $-1 $188 copy keep_kept ignore copy @10 FAMILY_KID 9 #
+plane-surface $-1 -1 $-1 1.500000000000000222 2.750000000000000444 13 0 0 1 1 0 0 forward_v I I I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $297 $189 $84 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 50 #
+pid_name-sg-attrib $-1 -1 $-1 $190 $49 @7 Invento 1535329018 49 1 #
+ptlist-eye-attrib $-1 -1 $298 $192 $140 #
+pid_name-sg-attrib $-1 -1 $-1 $194 $52 @7 Invento 1535329018 51 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $299 $196 $94 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 58 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $198 @7 unknown 1535329018 148 1 #
+edge $300 30 $-1 $253 0 $269 5.5 $210 $301 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $199 @7 unknown 1535329018 125 1 #
+coedge $302 88 $-1 $275 $199 $262 $303 forward $207 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $304 $-1 $200 copy keep_kept ignore copy @10 FAMILY_KID 33 #
+vertex $305 49 $-1 $200 1 $306 #
+straight-curve $-1 -1 $-1 0 0 0 1 0 0 F 0 F 3 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $307 $201 $97 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 47 #
+pid_name-sg-attrib $-1 -1 $-1 $204 $64 @7 Invento 1535329018 43 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $308 $205 $107 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 44 #
+fmesh-eye-attrib $-1 -1 $309 $206 $157 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $207 @7 unknown 1535329018 124 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $210 @7 unknown 1535329018 120 1 #
+coedge $310 83 $-1 $311 $210 $213 $266 forward $158 0 $-1 #
+coedge $312 85 $-1 $210 $311 $251 $303 reversed $158 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $212 @7 unknown 1535329018 116 1 #
+coedge $313 79 $-1 $213 $212 $314 $315 reversed $108 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $213 @7 unknown 1535329018 118 1 #
+edge $316 29 $-1 $269 0 $317 13 $261 $318 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $214 @7 unknown 1535329018 147 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $319 $-1 $215 copy keep_kept ignore copy @10 FAMILY_KID 27 #
+vertex $320 47 $-1 $249 1 $321 #
+straight-curve $-1 -1 $-1 3 5.5 0 -1 0 0 F 0 F 3 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $217 @7 unknown 1535329018 112 1 #
+coedge $322 100 $-1 $240 $314 $217 $273 forward $187 0 $-1 #
+edge $323 25 $-1 $280 0 $277 5.5 $217 $324 forward @7 unknown #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $218 @7 unknown 1535329018 128 1 #
+coedge $325 89 $-1 $218 $251 $240 $295 reversed $207 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $326 $-1 $219 copy keep_kept ignore copy @10 FAMILY_KID 24 #
+vertex $327 45 $-1 $219 1 $328 #
+straight-curve $-1 -1 $-1 0 0 0 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $329 $-1 $221 copy keep_kept ignore copy @10 FAMILY_KID 26 #
+vertex $330 46 $-1 $221 1 $331 #
+straight-curve $-1 -1 $-1 0 5.5 0 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $332 $223 $166 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $333 $-1 $224 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 80 #
+point $-1 -1 $-1 0 5.5 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $334 $-1 $225 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 81 #
+point $-1 -1 $-1 0 0 0 #
+ptlist-eye-attrib $-1 -1 $335 $228 $170 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $336 $230 $116 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 56 #
+pid_name-sg-attrib $-1 -1 $-1 $231 $172 @7 Invento 1535329018 79 1 #
+pid_name-sg-attrib $-1 -1 $-1 $233 $73 @7 Invento 1535329018 55 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $337 $235 $124 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 54 #
+pid_name-sg-attrib $-1 -1 $-1 $236 $76 @7 Invento 1535329018 53 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $240 @7 unknown 1535329018 135 1 #
+coedge $338 98 $-1 $314 $240 $311 $339 forward $187 0 $-1 #
+edge $340 34 $-1 $277 0 $341 3 $275 $342 forward @7 unknown #
+fmesh-eye-attrib $-1 -1 $343 $241 $188 #
+pid_name-sg-attrib $-1 -1 $-1 $243 $84 @7 Invento 1535329018 50 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $344 $245 $140 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 59 #
+pid_name-sg-attrib $-1 -1 $-1 $247 $94 @7 Invento 1535329018 58 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $345 $-1 $249 copy keep_kept ignore copy @10 FAMILY_KID 30 #
+straight-curve $-1 -1 $-1 3 0 0 0 1 0 F 0 F 5.5 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $251 @7 unknown 1535329018 126 1 #
+edge $346 32 $-1 $253 0 $341 13 $251 $347 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $348 $252 $200 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $349 $-1 $253 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 86 #
+point $-1 -1 $-1 3 0 0 #
+pid_name-sg-attrib $-1 -1 $-1 $255 $97 @7 Invento 1535329018 47 1 #
+pid_name-sg-attrib $-1 -1 $-1 $257 $107 @7 Invento 1535329018 44 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $350 $258 $157 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 45 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $261 @7 unknown 1535329018 121 1 #
+coedge $351 84 $-1 $262 $261 $294 $339 reversed $158 0 $-1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $262 @7 unknown 1535329018 123 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $264 @7 unknown 1535329018 117 1 #
+coedge $352 99 $-1 $272 $294 $264 $315 forward $187 0 $-1 #
+edge $353 28 $-1 $317 0 $280 3 $264 $354 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $355 $-1 $266 copy keep_kept ignore copy @10 FAMILY_KID 29 #
+vertex $356 48 $-1 $266 1 $357 #
+straight-curve $-1 -1 $-1 3 5.5 0 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $358 $268 $215 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $359 $-1 $269 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 84 #
+point $-1 -1 $-1 3 5.5 0 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $272 @7 unknown 1535329018 138 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $360 $-1 $273 copy keep_kept ignore copy @10 FAMILY_KID 25 #
+straight-curve $-1 -1 $-1 0 5.5 13 0 -1 0 I I #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $275 @7 unknown 1535329018 127 1 #
+ptlist-eye-attrib $-1 -1 $361 $276 $219 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $362 $-1 $277 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 82 #
+point $-1 -1 $-1 0 0 13 #
+ptlist-eye-attrib $-1 -1 $363 $279 $221 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $364 $-1 $280 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 83 #
+point $-1 -1 $-1 0 5.5 13 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $365 $282 $166 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 60 #
+pid_name-sg-attrib $-1 -1 $-1 $283 $224 @7 Invento 1535329018 80 1 #
+pid_name-sg-attrib $-1 -1 $-1 $285 $225 @7 Invento 1535329018 81 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $366 $287 $170 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 57 #
+pid_name-sg-attrib $-1 -1 $-1 $288 $116 @7 Invento 1535329018 56 1 #
+pid_name-sg-attrib $-1 -1 $-1 $291 $124 @7 Invento 1535329018 54 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $294 @7 unknown 1535329018 136 1 #
+edge $367 31 $-1 $341 0 $317 5.5 $311 $368 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $369 $-1 $295 copy keep_kept ignore copy @10 FAMILY_KID 34 #
+vertex $370 50 $-1 $303 1 $371 #
+straight-curve $-1 -1 $-1 0 0 13 1 0 0 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $372 $296 $188 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 46 #
+pid_name-sg-attrib $-1 -1 $-1 $298 $140 @7 Invento 1535329018 59 1 #
+ptlist-eye-attrib $-1 -1 $373 $300 $249 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $374 $-1 $303 copy keep_kept ignore copy @10 FAMILY_KID 32 #
+straight-curve $-1 -1 $-1 3 0 0 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $375 $304 $200 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 70 #
+pid_name-sg-attrib $-1 -1 $-1 $305 $253 @7 Invento 1535329018 86 1 #
+pid_name-sg-attrib $-1 -1 $-1 $309 $157 @7 Invento 1535329018 45 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $311 @7 unknown 1535329018 122 1 #
+pid_name-sg-attrib $-1 -1 $-1 $-1 $314 @7 unknown 1535329018 137 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $376 $-1 $315 copy keep_kept ignore copy @10 FAMILY_KID 28 #
+straight-curve $-1 -1 $-1 3 5.5 13 -1 0 0 I I #
+ptlist-eye-attrib $-1 -1 $377 $316 $266 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $378 $-1 $317 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 85 #
+point $-1 -1 $-1 3 5.5 13 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $379 $319 $215 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 64 #
+pid_name-sg-attrib $-1 -1 $-1 $320 $269 @7 Invento 1535329018 84 1 #
+ptlist-eye-attrib $-1 -1 $380 $323 $273 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $381 $326 $219 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 61 #
+pid_name-sg-attrib $-1 -1 $-1 $327 $277 @7 Invento 1535329018 82 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $382 $329 $221 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 63 #
+pid_name-sg-attrib $-1 -1 $-1 $330 $280 @7 Invento 1535329018 83 1 #
+pid_name-sg-attrib $-1 -1 $-1 $332 $166 @7 Invento 1535329018 60 1 #
+pid_name-sg-attrib $-1 -1 $-1 $335 $170 @7 Invento 1535329018 57 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $383 $-1 $339 copy keep_kept ignore copy @10 FAMILY_KID 31 #
+straight-curve $-1 -1 $-1 3 0 13 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $384 $340 $295 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $385 $-1 $341 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 87 #
+point $-1 -1 $-1 3 0 13 #
+pid_name-sg-attrib $-1 -1 $-1 $343 $188 @7 Invento 1535329018 46 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $386 $345 $249 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 67 #
+ptlist-eye-attrib $-1 -1 $387 $346 $303 #
+pid_name-sg-attrib $-1 -1 $-1 $348 $200 @7 Invento 1535329018 70 1 #
+ptlist-eye-attrib $-1 -1 $388 $353 $315 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $389 $355 $266 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 66 #
+pid_name-sg-attrib $-1 -1 $-1 $356 $317 @7 Invento 1535329018 85 1 #
+pid_name-sg-attrib $-1 -1 $-1 $358 $215 @7 Invento 1535329018 64 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $390 $360 $273 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 62 #
+pid_name-sg-attrib $-1 -1 $-1 $361 $219 @7 Invento 1535329018 61 1 #
+pid_name-sg-attrib $-1 -1 $-1 $363 $221 @7 Invento 1535329018 63 1 #
+ptlist-eye-attrib $-1 -1 $391 $367 $339 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $392 $369 $295 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 71 #
+pid_name-sg-attrib $-1 -1 $-1 $370 $341 @7 Invento 1535329018 87 1 #
+pid_name-sg-attrib $-1 -1 $-1 $373 $249 @7 Invento 1535329018 67 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $393 $374 $303 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 69 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $394 $376 $315 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 65 #
+pid_name-sg-attrib $-1 -1 $-1 $377 $266 @7 Invento 1535329018 66 1 #
+pid_name-sg-attrib $-1 -1 $-1 $380 $273 @7 Invento 1535329018 62 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $395 $383 $339 copy keep_kept ignore copy @21 INVENTOR_TRANSIENTKEY 68 #
+pid_name-sg-attrib $-1 -1 $-1 $384 $295 @7 Invento 1535329018 71 1 #
+pid_name-sg-attrib $-1 -1 $-1 $387 $303 @7 Invento 1535329018 69 1 #
+pid_name-sg-attrib $-1 -1 $-1 $388 $315 @7 Invento 1535329018 65 1 #
+pid_name-sg-attrib $-1 -1 $-1 $391 $339 @7 Invento 1535329018 68 1 #
+End-of-ASM-data 

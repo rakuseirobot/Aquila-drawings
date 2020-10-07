@@ -27,8 +27,10 @@ Aquilaの設計図　おそらく最新版(2018.7.31)　for Inventor 2018
 # Author
 
 * Shun Kayaki
-* Kyushu institute of Technology
-* shun@guetan.dev
+
+    Kyushu institute of Technology
+    
+    shun@guetan.dev
 
 * Emile
 
